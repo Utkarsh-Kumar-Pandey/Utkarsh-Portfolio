@@ -60,13 +60,20 @@ body {
     color: rgb(212, 161, 66);
 }
 
+
 .contacts {
     font-size: large;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    
+    
 }
 
-.contacts:hover {
+.education-nav:hover,.projects-nav:hover,.contacts-nav:hover {
     font-size: x-large;
     color: rgb(212, 161, 66);
+    transition: 0.5s ease-in-out;
 }
 
 /* SECOND PART */
@@ -304,7 +311,7 @@ body {
 
     .socials {
         left: -25vw;
-        top: -6vh;
+        top: -4.7vh;
     }
 }
 
@@ -362,6 +369,62 @@ body {
 
 
 /* ========================================================= */
+/*Education Section*/
+.education-section {
+    height: 82vh;
+    color: #2C3E50;
+    background-color: #F4F4F4;
+    background-color: rgba(90, 133, 211, 0.15);
+    padding-bottom: 42rem;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    border-top: 2px solid rgba(68, 76, 83, 0.25);
+    border-bottom: 2px solid rgba(68, 76, 83, 0.25);
+    display: none;
+    
+}
+.education-section h1{
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+
+.bs-deg, .btech-deg, .sec-high, .high {
+    width: 25vw;
+    color: whitesmoke;
+    background-color: #2C3E50;;
+    border-radius: 15px;
+}
+
+.education-section > div {
+    text-align: center;
+}
+
+.education-section h3 {
+    margin-bottom: 5px;
+}
+
+.education-section p {
+    margin: 0;
+}
+
+.education-section ul {
+    padding: 0.2rem;
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.education-section ul li {
+    padding: rem;
+    margin-left: 0;
+}
+
+.education-section p:nth-child(4) {
+    font-weight: bold;
+}
+
 /* SECOND_CONTAINER */
 .second {
     padding: 1.5rem;
@@ -370,6 +433,7 @@ body {
     align-items: center;
     flex-direction: column; */
     border-bottom: 2px solid gray;
+    display: none;
 }
 
 .heading {
