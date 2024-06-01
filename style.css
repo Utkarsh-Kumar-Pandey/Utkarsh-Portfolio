@@ -25,7 +25,11 @@ body {
 
 .navigation_bar {
     padding: 0.7rem;
-    height: 6vh;
+    /* min-height: fit-content; */
+
+    height: 7vh;
+    /* min-height: fit-content; */
+    
     /* border: 1px solid rgb(231, 192, 107); */
     /* background-color: #3B3F40; */
     border-top: none;
@@ -110,11 +114,13 @@ body {
 }
 
 .image img {
+    background-color: rgba(144, 204, 253, 0.329);
     padding: 0.4rem;
     /* width: 20rem;
     height: 33rem; */
-    width: 100%;
+    width: 21vw;
     height: auto;
+    aspect-ratio: fixed;
     border: rgb(255, 170, 11);
     border-radius: 10%;
     border-top-left-radius: 50px;
@@ -126,8 +132,8 @@ body {
 .image h1 {
     padding: clamp(1rem,6rem,7rem);
     font-family: "Lato", sans-serif;
-    font-size: clamp(10px,2.5rem,42px);
-    word-spacing: clamp(0.5rem,1.5rem,5rem);
+    font-size: clamp(10px,2.4rem,42px);
+    word-spacing: clamp(0.5rem,1.99rem,5rem);
 }
 
 .socials {
@@ -150,13 +156,31 @@ body {
     text-decoration: none;
 }
 
+@media only screen and (max-width:3773px) {
+    .image h1{
+        font-size: 5rem;
+    }
+}
+@media only screen and (max-width:2421px) {
+    .image h1{
+        font-size: 3.8rem;
+    }
+}
+@media only screen and (max-width:1950px) {
+    .image h1{
+        font-size: 3rem;
+    }
+}
+
+
 
 @media only screen and (max-width:1673px) {
-    /* .image h1 {
+    .image h1 {
         word-spacing: 1.1rem;
+        font-size: 2.4rem;
     }
 
-    .socials {
+    /* .socials {
         left: -27.5vw;
     } */
 
@@ -165,7 +189,7 @@ body {
 @media only screen and (max-width:1510px) {
     .image h1 {
         word-spacing: 0.7rem;
-        font-size: 1.85rem;
+        font-size: 2.25rem;
     }
 
     /*.socials {
@@ -191,7 +215,7 @@ body {
     .image h1 {
         padding: 2.5rem;
         word-spacing: 1rem;
-        font-size: 1.59rem;
+        font-size: 2rem;
     }
 /* 
     .socials {
@@ -249,6 +273,9 @@ body {
         margin-left: 1rem;
         left: -24vw;
     } */ 
+    .image h1{
+        font-size: 1.6rem;
+    }
     
 }
 
@@ -260,7 +287,10 @@ body {
     }
 
     .image img {
-        width: 25vw;
+        width: 24vw;
+        aspect-ratio: fixed;
+        /* width: 70%;  */
+
         /* height: 60vh; */
     }
     .socials {
@@ -307,6 +337,12 @@ body {
 
     .socials {
         gap: 0.2rem;
+    }
+    .contacts{
+        gap: 1rem;
+    }
+    .name h2 a{
+        font-size: 1.3rem;
     }
 }
 
@@ -402,6 +438,9 @@ body {
     }
     .name h2 a,.contacts{
         font-size: 0.8rem;
+    }
+    .contacts{
+        gap: 0.4rem;
     }
     .education-nav:hover,.projects-nav:hover,.contacts-nav:hover {
         font-size: 0.9rem;
