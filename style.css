@@ -477,13 +477,17 @@ body {
     font-size: 3rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
-
+.education-section div h3{
+    padding: 0.4rem;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+}
 .bs-deg, .btech-deg, .sec-high, .high {
-    min-width: fit-content;
+    width: 25vw;
     min-height: fit-content;
     /* width: 25vw; */
     /* color: rgb(214, 181, 181); */
-    background-color:  rgba(154, 120, 231, 0.342);
+    background-color:  rgba(204, 210, 238, 0.342);
+    border: 2px solid rgba(43, 96, 209, 0.3);
     color: rgb(0, 0, 0);
     /* -webkit-text-stroke: 1px black; */
     
@@ -515,6 +519,10 @@ body {
 .education-section p:nth-child(4) {
     font-weight: bold;
 }
+.education-section div p a{
+    text-decoration: none;
+}
+
 
 /* SECOND_CONTAINER */
 .second {

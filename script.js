@@ -34,6 +34,10 @@ projectbut.addEventListener('click',()=>{
     else{
         secondcontainer.style.display='none';
     }
+    window.scrollTo({
+        top: second.offsetTop,
+        behavior: 'smooth'
+    });
 
 })
 
@@ -47,5 +51,10 @@ educationbut.addEventListener('click',()=>{
     else{
         edusection.style.display='none';
     }
+
+    window.scrollTo({
+        top: edusection.offsetTop,
+        behavior: 'smooth'
+    });
 
 })
