@@ -373,6 +373,7 @@ body {
     .name h2 a{
         font-size: 1.3rem;
     }
+    
 }
 
 @media only screen and (max-width:532px) {
@@ -511,7 +512,7 @@ body {
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
 }
 .bs-deg, .btech-deg, .sec-high, .high {
-    width: 25vw;
+    width: 30vw;
     min-height: fit-content;
     /* width: 25vw; */
     /* color: rgb(214, 181, 181); */
@@ -551,7 +552,16 @@ body {
 .education-section div p a{
     text-decoration: none;
 }
-
+@media only screen and (max-width:570px){
+    .bs-deg, .btech-deg, .sec-high, .high {
+        width: 43vw;
+    }
+}
+@media only screen and (max-width:450px){
+    .bs-deg, .btech-deg, .sec-high, .high {
+        width: 49vw;
+    }
+}
 
 /* SECOND_CONTAINER */
 .second {
