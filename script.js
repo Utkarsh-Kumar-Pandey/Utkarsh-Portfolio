@@ -1,3 +1,7 @@
+gsap.fromTo('.preload',{y:0,opacity:1},{y:'-100%',opacity:1,duration:5,delay:2,ease:"power2.out"})
+
+
+
 const but = document.getElementById('contactbutton');
 but.addEventListener('click', () => {
     window.scrollTo({
@@ -58,3 +62,4 @@ educationbut.addEventListener('click',()=>{
     });
 
 })
+
