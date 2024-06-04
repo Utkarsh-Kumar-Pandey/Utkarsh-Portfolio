@@ -38,12 +38,11 @@ body {
     align-items: center;
 }
 
-
 .navigation_bar {
     padding: 0.7rem;
     /* min-height: fit-content; */
 
-    height: 7vh;
+    height: 7.6vh;
     /* min-height: fit-content; */
 
     /* border: 1px solid rgb(231, 192, 107); */
@@ -56,9 +55,8 @@ body {
     align-items: center;
 
     background-color: #0a192f;
-    ;
     color: #f8f8f8;
-    border-bottom: 2px solid #ced4da;
+    border-bottom: 3px solid #f3ae2e;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
@@ -90,6 +88,11 @@ body {
 
 
 }
+.education-nav,
+.projects-nav,
+.contacts-nav{
+    border-bottom: 1px solid rgba(233, 191, 7, 0.4);
+}
 
 .education-nav:hover,
 .projects-nav:hover,
@@ -97,6 +100,7 @@ body {
     font-size: 1.5rem;
     color: rgb(212, 161, 66);
     transition: 0.5s ease-in-out;
+    
 }
 
 /* SECOND PART */
@@ -280,7 +284,7 @@ body {
 
 }
 
-@media only screen and (max-width:108px) {
+@media only screen and (max-width:1080px) {
 
     /* .image h1 {
         word-spacing: 0.7rem;
@@ -357,6 +361,7 @@ body {
         height: 1.5rem;
 
     }
+    
 
 
     /* .socials {
@@ -421,6 +426,13 @@ body {
         padding: 1.5rem;
         /* justify-content: center;
         align-items: center; */
+    }
+    .preload img{
+        width: 70vw;
+        height: auto;
+        position: absolute;
+        top: 35%;
+        align-items: center;
     }
 
     .image img {
