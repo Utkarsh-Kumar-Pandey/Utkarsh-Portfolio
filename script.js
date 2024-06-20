@@ -1,4 +1,4 @@
-gsap.fromTo('.preload',{y:0,opacity:1},{y:'-100%',opacity:1,duration:5,delay:2,ease:"power2.out"})
+gsap.fromTo('.preload',{y:0,opacity:1},{y:'-105%',opacity:1,duration:5,delay:2,ease:"power2.out"})
 
 
 

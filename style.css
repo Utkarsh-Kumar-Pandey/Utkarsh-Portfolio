@@ -3,7 +3,7 @@
 
 
 * {
-    padding: 0;
+    
     margin: 0;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
@@ -22,6 +22,7 @@ body {
     background-color: rgba(37, 47, 141, 0.1);
     color: #333333;
     position: relative;
+    
 }
 
 .preload {
@@ -58,6 +59,7 @@ body {
     color: #f8f8f8;
     border-bottom: 3px solid #f3ae2e;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
 
 }
 
@@ -118,6 +120,7 @@ body {
     min-height: fit-content; */
 
     padding: 2rem;
+    width: 100%;
 
 }
 
@@ -271,7 +274,7 @@ body {
         width: 19rem;
     }
 
-    /* 
+    /*
     .socials {
         margin-left: 1rem;
         left: -25.5vw;
@@ -281,6 +284,7 @@ body {
         gap: 1rem;
 
     }
+    
 
 }
 
@@ -311,6 +315,7 @@ body {
         height: 1.5rem;
 
     }
+    
 }
 
 @media only screen and (max-width:962px) {
@@ -329,6 +334,7 @@ body {
         margin-left: 1rem;
         left: -24vw;
     } */
+    
     .image h1 {
         font-size: 1.59rem;
     }
@@ -336,6 +342,7 @@ body {
 }
 
 @media only screen and (max-width:890px) {
+    
     .image h1 {
         padding: 2rem;
         word-spacing: 1.4rem;
@@ -361,6 +368,7 @@ body {
         height: 1.5rem;
 
     }
+    
     
 
 
@@ -407,7 +415,7 @@ body {
     }
 
     .name h2 a {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
 }
@@ -428,7 +436,7 @@ body {
         align-items: center; */
     }
     .preload img{
-        width: 70vw;
+        width: 100%;
         height: auto;
         position: absolute;
         top: 35%;
@@ -513,8 +521,7 @@ body {
 
     .name h2 a,
     .contacts {
-        font-size: 0.59rem;
-
+        font-size: 0.55rem;
     }
 
     .contacts {
